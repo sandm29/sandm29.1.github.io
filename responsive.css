@@ -1,0 +1,45 @@
+@media (max-width : 500px) {
+    #in{
+        grid-template-columns: repeat(1,1fr) ;
+        gap: 0px;
+    }
+
+    form{background: none;}
+
+    html{width: fit-content;}
+
+    header{
+        background: fixed url(taichi.jpg);
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+
+    #presentacion{
+        margin: auto;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #presentacion-img{
+        height: 50%;
+        width: 300px;
+    }
+    
+    #presentacion-info{
+        height: auto;
+        width: 300px;
+    }
+
+
+
+
+
+
+
+
+
+}
